@@ -1,18 +1,39 @@
-## Getting Started
+# 📦 Sets en Java - Implementación de HashSet, LinkedHashSet y TreeSet
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este proyecto demuestra el uso de diferentes implementaciones de la interfaz `Set` en Java, incluyendo `HashSet`, `LinkedHashSet` y `TreeSet`, además de comparadores personalizados para ordenar los elementos según distintos criterios.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📂 Paquete
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+`controllers.Sets`
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🚀 Funcionalidades
 
-## Dependency Management
+### ✅ `construirHashSet()`
+- Usa `HashSet`.
+- No mantiene el orden de inserción.
+- No permite duplicados.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### ✅ `construirLinkedHashSet()`
+- Usa `LinkedHashSet`.
+- Mantiene el orden de inserción.
+- No permite duplicados.
+
+### ✅ `construirTreeSet()`
+- Usa `TreeSet`.
+- Ordena los elementos en orden natural (alfabético en este caso).
+- No permite duplicados.
+
+### ✅ `construirTreeSetConComparador()`
+- Usa `TreeSet` con un **comparador personalizado**.
+- Ordena las palabras por **longitud ascendente** y alfabéticamente si tienen la misma longitud.
+
+### ✅ `construirTreeSetConComparadorDescendente()`
+- Usa `TreeSet` con un **comparador descendente**.
+- Ordena las palabras por **longitud descendente** y alfabéticamente en orden inverso si tienen la misma longitud.
+
+---
+![alt text](image.png)
