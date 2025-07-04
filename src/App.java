@@ -1,3 +1,4 @@
+import controllers.Ejercicios;
 import controllers.Sets;
 import models.Contact;
 import utils.ContactoController;
@@ -19,8 +20,10 @@ public class App {
         // Sets sets5 = new Sets();
         // runConstruirTreeSetConComparadorDescendente(sets5);
 
-        ContactoController contactoController = new ContactoController();
-        runContactoController(contactoController);
+        // ContactoController contactoController = new ContactoController();
+        // runContactoController(contactoController);
+
+        Ejercicios ejercicios = new Ejercicios();
     }
 
     public static void runHashSet(Sets sets) {
