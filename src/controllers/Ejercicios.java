@@ -79,7 +79,7 @@ public class Ejercicios {
         System.out.println("Palabras comunes: " + interseccion.size());
 
         System.out.println("Concidencia léxica: " + (interseccion.size() * 100 / Math.min(palabrasTexto1.size(), palabrasTexto2.size())) + "%");
-        System.out.println("Palabras comunes 1: ` + interseccion);
+        System.out.println("Palabras comunes 1: "+ interseccion);
         System.out.println("Palabras comunes 2: " + interseccion);
 
     }
